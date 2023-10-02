@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>NAVER</title>
+        <link rel="icon" href="./사진/logo/m-logo.jpg" />
+        <link rel="apple-touch-icon" href="./사진/logo/m-logo.jpg" />
+        <script src="https://kit.fontawesome.com/0aeb11bfea.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="m-naver.css" />
+    </head>
+    <body>
+        <nav class="m-navbar">
+            <ul class="nav-icon nav-icon-left">
+                <li class="m-nav-menu">
+                    <a href="#">
+                        <svg
+                            class="hamberger"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="30"
+                            height="30"
+                            fill="currentColor"
+                            class="bi bi-list"
+                            viewBox="0 0 16 16"
+                        >
+                            <path
+                                fill-rule="evenodd"
+                                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+                            />
+                        </svg>
+                    </a>
+                </li>
+                <li class="m-nav-pay">
+                    <a href="#"
+                        ><svg
+                            class="pay-icon"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="30"
+                            height="30"
+                            fill="currentColor"
+                            class="bi bi-credit-card"
+                            viewBox="0 0 16 16"
+                        >
+                            <path
+                                d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v1h14V4a1 1 0 0 0-1-1H2zm13 4H1v5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V7z"
+                            />
+                            <path
+                                d="M2 10a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-1z"
+                            /></svg
+                    ></a>
+                </li>
+            </ul>
+
+            <ul class="nav-icon nav-icon-right">
+                <li class="m-nav-chat">
+                    <button class="chat-btn"><i class="fa-regular fa-comment-dots"></i></button>
+                </li>
+                <li class="m-nav-notice">
+                    <button class="notice-btn"><i class="fa-regular fa-bell"></i></button>
+                </li>
+                <li>
+                    <a href="#" class="naver-Na-link"><span class="naver-Na">Na.</span></a>
+                </li>
+            </ul>
+        </nav>
+
+        <section class="search-section">
+            <div class="search">
+                <form
+                    class="search-bar"
+                    id="search-box"
+                    action="https://m.search.naver.com/search.naver?sm=mtp_hty.top&where=m&query="
+                >
+                    <div><span class="logo">N</span></div>
+                    <input
+                        type="text"
+                        class="search-input"
+                        placeholder="검색어를 입력해 주세요."
+                        name="query"
+                    />
+                    <button class="voice-input"><i class="fa-solid fa-microphone"></i></button>
+                </form>
+            </div>
+            <div class="quick-icon-container">
+                <div class="m-quick-menu">
+                    <div class="m-quick-icon m-quick-icon-1">
+                        <ul class="m-quick-icon-list m-quick-icon-list-1">
+                            <li>
+                                <a href="#" class="quick-icon-link"
+                                    ><div class="icon-container">
+                                        <img
+                                            src="./사진/m-quick-icon/news.png"
+                                            alt=""
+                                            class="quick-icon-img"
+                                        />
+                                    </div>
+                                    <p class="quick-icon-name">뉴스판</p></a
+                                >
+                            </li>
+                            <li>
+                                <a href="#" class="quick-icon-link"
+                                    ><div class="icon-container">
+                                        <img
+                                            src="./사진/m-quick-icon/shopping.png"
+                                            alt=""
+                                            class="quick-icon-img"
+                                        />
+                                    </div>
+                                    <p class="quick-icon-name">쇼핑판</p></a
+                                >
+                            </li>
+                            <li>
+                                <a href="#" class="quick-icon-link"
+                                    ><div class="icon-container">
+                                        <img
+                                            src="./사진/m-quick-icon//stock.png"
+                                            alt=""
+                                            class="quick-icon-img"
+                                        />
+                                    </div>
+                                    <p class="quick-icon-name">경제판</p></a
+                                >
+                            </li>
+                            <li>
+                                <a href="#" class="quick-icon-link"
+                                    ><div class="icon-container">
+                                        <img
+                                            src="./사진/m-quick-icon/sports.png"
+                                            alt=""
+                                            class="quick-icon-img"
+                                        />
+                                    </div>
+                                    <p class="quick-icon-name">스포츠판</p></a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="m-quick-icon m-quick-icon-2">
+                        <ul class="m-quick-icon-list m-quick-icon-list-2">
+                            <li>
+                                <a href="#" class="quick-icon-link"
+                                    ><div class="icon-container">
+                                        <img
+                                            src="./사진/m-quick-icon/mail.png"
+                                            alt=""
+                                            class="quick-icon-img"
+                                        />
+                                    </div>
+                                    <p class="quick-icon-name">메일</p></a
+                                >
+                            </li>
+                            <li>
+                                <a href="#" class="quick-icon-link"
+                                    ><div class="icon-container">
+                                        <img
+                                            src="./사진/m-quick-icon/cafe.png"
+                                            alt=""
+                                            class="quick-icon-img"
+                                        />
+                                    </div>
+                                    <p class="quick-icon-name">카페</p></a
+                                >
+                            </li>
+                            <li>
+                                <a href="#" class="quick-icon-link"
+                                    ><div class="icon-container">
+                                        <img
+                                            src="./사진/m-quick-icon/blog.png"
+                                            alt=""
+                                            class="quick-icon-img"
+                                        />
+                                    </div>
+                                    <p class="quick-icon-name">블로그</p></a
+                                >
+                            </li>
+                            <li>
+                                <a href="#" class="quick-icon-link"
+                                    ><div class="icon-container">
+                                        <img
+                                            src="./사진/m-quick-icon/etc.png"
+                                            alt=""
+                                            class="quick-icon-img"
+                                        />
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="m-ad">
+                <a href="#"><img src="./사진/m-ad/m-ad.png" alt="" class="m-ad-img" /></a>
+            </div>
+        </section>
+
+        <section class="m-contents">
+            <div class="m-content m-content-1">
+                <div class="content-card m-weather">
+                    <div class="weather-main">
+                        <div class="weather-icon">
+                            <img src="./사진/m-weather/sun.png" alt="" />
+                        </div>
+                        <div class="weather-text">
+                            <a href="#">
+                                <div class="weather-main-text">20.8&#176; 서울</div>
+                                <div class="weather-sub-text">
+                                    미세 <span class="dust-condition">좋음</span>&#12539;초미세
+                                    <span class="dust-condition">좋음</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="find-location">
+                            <button class="find-location-btn">
+                                내 위치 찾기
+                                <span class="find-location-icon"
+                                    ><i class="fa-solid fa-location-crosshairs"></i
+                                ></span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="weather-detailed">
+                        위치 찾기를 눌러 현 위치의 시간대별ㆍ주간날씨와 미세먼지 예보를 여기에서
+                        바로 보세요
+                    </div>
+                </div>
+                <div class="content-card naver-trend">
+                    <img src="./사진/m-trend/ag.png" alt="" class="ag-img" />
+                </div>
+                <div class="content-card channel-container">
+                    <ul class="channel-list">
+                        <li class="channel">
+                            <a href="#" class="channel-link">
+                                <div class="arrow arrow-left">
+                                    <i class="fa-solid fa-arrow-left"></i>
+                                </div>
+                                <div class="channel-info">
+                                    <div class="channel-title channel-title-right">
+                                        <div class="main-title channel-main-title">
+                                            고민은 이제 그만
+                                        </div>
+                                        <div class="sub-title channel-sub-title">
+                                            센스 만점 선물 여기 다 있어요
+                                        </div>
+                                    </div>
+                                    <div class="channel-img-container channel-img-container-right">
+                                        <img
+                                            src="./사진/m-card/gift-2.jpg"
+                                            alt=""
+                                            class="channel-img"
+                                        />
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="channel">
+                            <a href="#" class="channel-link">
+                                <div class="arrow arrow-left">
+                                    <i class="fa-solid fa-arrow-left"></i>
+                                </div>
+                                <div class="channel-info">
+                                    <div class="channel-title channel-title-right">
+                                        <div class="main-title channel-main-title">선물샵판</div>
+                                        <div class="sub-title channel-sub-title">
+                                            오래 기억될 선물을 전하세요
+                                        </div>
+                                    </div>
+                                    <div class="channel-img-container channel-img-container-right">
+                                        <img
+                                            src="./사진/m-card/gift.jpg"
+                                            alt=""
+                                            class="channel-img"
+                                        />
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="channel">
+                            <a href="#" class="channel-link">
+                                <div class="channel-info">
+                                    <div class="channel-img-container channel-img-container-left">
+                                        <img
+                                            src="./사진/m-card/car.jpg"
+                                            alt=""
+                                            class="channel-img"
+                                        />
+                                    </div>
+                                    <div class="channel-title channel-title-left">
+                                        <div class="main-title channel-main-title-left">
+                                            자동차판
+                                        </div>
+                                        <div class="sub-title channel-sub-title ellipsis">
+                                            기대되는 신차정보 자동차 트렌드
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="arrow arrow-right">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="channel">
+                            <a href="#" class="channel-link webtoon-channel-link">
+                                <div class="channel-info">
+                                    <div class="channel-img-container channel-img-container-left">
+                                        <img
+                                            src="./사진/m-card/webtoon.jpg"
+                                            alt=""
+                                            class="channel-img"
+                                        />
+                                    </div>
+                                    <div class="channel-title channel-title-left">
+                                        <div class="main-title channel-main-title-left">
+                                            놓칠 수 없는 꿀잼
+                                        </div>
+                                        <div class="sub-title channel-sub-title">
+                                            오늘의 인기 웹툰 만나러 가기
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="arrow arrow-right">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="content-card naver-membership naver-ads-card">
+                    <a href="#">
+                        <div class="membership-img-container-1">
+                            <img
+                                src="./사진/m-card/membership.png"
+                                alt=""
+                                class="naver-ads-card-img"
+                            />
+                        </div>
+                        <div class="naver-ads-card-info">
+                            <div class="naver-ads-card-container">
+                                <img
+                                    src="./사진/m-card/membership-logo.png"
+                                    alt=""
+                                    class="naver-ads-card-logo"
+                                />
+                            </div>
+                            <div class="naver-ads-card-title">
+                                <div class="main-title membership-main-title naver-ads-card-title">
+                                    새로운 플러스 멤버십 혜택
+                                </div>
+                                <div class="sub-title membership-sub-title">
+                                    인터넷 면세점 최대 8% 적립
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="m-content m-content-2">
+                <div class="content-card naver-app">
+                    <a href="#" class="app-link">
+                        <div class="app-img-container">
+                            <img src="./사진/m-logo/m-logo.png" alt="" class="app-img" />
+                        </div>
+                        <div class="app-text">
+                            <p>더 편리해진 AI기능</p>
+                            <span>네이버앱</span>에서 만나보세요
+                        </div>
+                        <div class="use-app">
+                            <span>앱 사용하기 <i class="fa-solid fa-chevron-right"></i></span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="content-card naver-sports naver-ads-card">
+                    <a href="#">
+                        <div class="sports-img-container-1">
+                            <img
+                                src="./사진/m-card/sports-ag.png"
+                                alt=""
+                                class="naver-ads-card-img"
+                            />
+                        </div>
+                        <div class="naver-ads-card-info">
+                            <div class="naver-ads-card-container">
+                                <img
+                                    src="./사진/m-card/naver-logo.png"
+                                    alt=""
+                                    class="naver-ads-card-logo"
+                                />
+                            </div>
+                            <div class="naver-ads-card-title">
+                                <div class="main-title sports-main-title naver-ads-card-title">
+                                    네이버 스포츠 항저우 AG
+                                </div>
+                                <div class="sub-title sports-sub-title">
+                                    팀코리아, 함께 응원해요
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="content-card naver-golf naver-ads-card">
+                    <a href="#">
+                        <div class="sports-img-container-1">
+                            <img src="./사진/m-card/golf.png" alt="" class="naver-ads-card-img" />
+                        </div>
+                        <div class="naver-ads-card-info">
+                            <div class="naver-ads-card-container">
+                                <img
+                                    src="./사진/m-card/naver-logo.png"
+                                    alt=""
+                                    class="naver-ads-card-logo"
+                                />
+                            </div>
+                            <div class="naver-ads-card-title">
+                                <div class="main-title sports-main-title naver-ads-card-title">
+                                    네이버 스포츠 MY골프
+                                </div>
+                                <div class="sub-title sports-sub-title">
+                                    골퍼들의 필수템, 지금 확인하세요&#33;
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="content-card naver-band naver-ads-card">
+                    <a href="#">
+                        <div class="sports-img-container-1">
+                            <img src="./사진/m-card/band.png" alt="" class="naver-ads-card-img" />
+                        </div>
+                        <div class="naver-ads-card-info">
+                            <div class="naver-ads-card-container">
+                                <img
+                                    src="./사진/m-card/band-logo.png"
+                                    alt=""
+                                    class="naver-ads-card-logo"
+                                />
+                            </div>
+                            <div class="naver-ads-card-title">
+                                <div class="main-title sports-main-title naver-ads-card-title">
+                                    우리 학급은 밴드 이벤트 중&#33;
+                                </div>
+                                <div class="sub-title sports-sub-title">
+                                    미션 인증 하고 간식비 지원 받아요
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="m-content m-content-3">
+                <div class="content-card shopping-live">
+                    <div class="shopping-live-header">
+                        <div class="shopping-live-title">
+                            쇼핑 <span class="live-red">live</span>
+                        </div>
+                        <div class="schedule">
+                            <a href="#" class="schedule-link"
+                                ><i class="fa-regular fa-calendar-days"></i>편성표</a
+                            >
+                        </div>
+                    </div>
+                    <div class="shopping-live-main">
+                        <ul class="shopping-live-list">
+                            <li class="shopping-item">
+                                <a href="" class="shopping-item-link">
+                                    <div class="item-img-container">
+                                        <img
+                                            src="./사진/m-shopping/item-1.jpg"
+                                            alt=""
+                                            class="item-img"
+                                        />
+                                        <div class="live-date">
+                                            <p>10월 2일 11:00</p>
+                                        </div>
+                                    </div>
+                                    <div class="item-info">
+                                        <div class="item-info-text">
+                                            <div class="item-info-title">
+                                                <p>
+                                                    팸퍼스 신제품 터치 오브 네이처 네이버 단독
+                                                    선출시
+                                                </p>
+                                            </div>
+                                            <div class="item-info-wating">
+                                                <p>24.6만명 기다리는 중</p>
+                                            </div>
+                                        </div>
+                                        <div class="item-seller">
+                                            <div class="seller-img-container">
+                                                <img
+                                                    src="./사진/m-shopping/item-seller-1.png"
+                                                    alt=""
+                                                    class="seller-img"
+                                                />
+                                            </div>
+                                            <div class="seller-name">팸퍼스 공식몰</div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="alarm-on">
+                                    <button class="alarm-btn">
+                                        <i class="fa-regular fa-bell"></i>
+                                    </button>
+                                </div>
+                            </li>
+                            <li class="shopping-item">
+                                <a href="" class="shopping-item-link">
+                                    <div class="item-img-container">
+                                        <img
+                                            src="./사진/m-shopping/item-2.png"
+                                            alt=""
+                                            class="item-img"
+                                        />
+                                        <div class="live-date">
+                                            <p>10월 2일 11:00</p>
+                                        </div>
+                                    </div>
+                                    <div class="item-info">
+                                        <div class="item-info-text">
+                                            <div class="item-info-title">
+                                                <p>
+                                                    특가 5,900원🧡 전메뉴 최대할인⚡️은영이떡볶이!
+                                                </p>
+                                            </div>
+                                            <div class="item-info-wating">
+                                                <p>6.5만명 기다리는 중</p>
+                                            </div>
+                                        </div>
+                                        <div class="item-seller">
+                                            <div class="seller-img-container">
+                                                <img
+                                                    src="./사진/m-shopping/item-seller-2.jpg"
+                                                    alt=""
+                                                    class="seller-img"
+                                                />
+                                            </div>
+                                            <div class="seller-name">고수의 집밥</div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="alarm-on">
+                                    <button class="alarm-btn">
+                                        <i class="fa-regular fa-bell"></i>
+                                    </button>
+                                </div>
+                            </li>
+                            <li class="shopping-item">
+                                <a href="" class="shopping-item-link">
+                                    <div class="item-img-container">
+                                        <img
+                                            src="./사진/m-shopping/item-3.jpg"
+                                            alt=""
+                                            class="item-img"
+                                        />
+                                        <div class="live-date">
+                                            <p>10월 2일 11:00</p>
+                                        </div>
+                                    </div>
+                                    <div class="item-info">
+                                        <div class="item-info-text">
+                                            <div class="item-info-title">
+                                                <p>
+                                                    [국제동물의날] 참치명가 동원 뉴트리플랜 최대
+                                                    ~69%
+                                                </p>
+                                            </div>
+                                            <div class="item-info-wating">
+                                                <p>1.3만명 기다리는 중</p>
+                                            </div>
+                                        </div>
+                                        <div class="item-seller">
+                                            <div class="seller-img-container">
+                                                <img
+                                                    src="./사진/m-shopping/item-seller-3.jpg"
+                                                    alt=""
+                                                    class="seller-img"
+                                                />
+                                            </div>
+                                            <div class="seller-name">뉴트리플랜</div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="alarm-on">
+                                    <button class="alarm-btn">
+                                        <i class="fa-regular fa-bell"></i>
+                                    </button>
+                                </div>
+                            </li>
+                            <li class="shopping-item">
+                                <a href="" class="shopping-item-link">
+                                    <div class="item-img-container">
+                                        <img
+                                            src="./사진/m-shopping/item-4.jpg"
+                                            alt=""
+                                            class="item-img"
+                                        />
+                                        <div class="live-date">
+                                            <p>10월 2일 11:00</p>
+                                        </div>
+                                    </div>
+                                    <div class="item-info">
+                                        <div class="item-info-text">
+                                            <div class="item-info-title">
+                                                <p>
+                                                    🧳가방 및 캐리어 🔥슈퍼할인 단 하루! 🚀도착보장
+                                                </p>
+                                            </div>
+                                            <div class="item-info-wating">
+                                                <p>769명 기다리는 중</p>
+                                            </div>
+                                        </div>
+                                        <div class="item-seller">
+                                            <div class="seller-img-container">
+                                                <img
+                                                    src="./사진/m-shopping/item-seller-4.jpg"
+                                                    alt=""
+                                                    class="seller-img"
+                                                />
+                                            </div>
+                                            <div class="seller-name">맨백</div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="alarm-on">
+                                    <button class="alarm-btn">
+                                        <i class="fa-regular fa-bell"></i>
+                                    </button>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="shopping-live-footer">
+                        <a href="#" class="short-clip-link">
+                            <div class="shopping-live-footer-img-container">
+                                <img
+                                    src="./사진/m-shopping/footer.png"
+                                    alt=""
+                                    class="shopping-live-footer-img"
+                                />
+                            </div>
+                            <div class="shopping-liver-footer-text">
+                                요즘 인기템&#33; 재미있는 숏클립 보기
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="content-card naver-travel">
+                    <div class="naver-travel-container">
+                        <img
+                            src="./사진/naver-travel/naver-travel.png"
+                            alt=""
+                            class="naver-travel-img"
+                        />
+                    </div>
+                    <button class="close-btn"><i class="fa-solid fa-xmark"></i></button>
+                </div>
+
+                <div class="content-card clip">
+                    <div class="clip-header">
+                        <div class="clip-logo"><i class="fa-solid fa-circle-play">Clip</i></div>
+                        <div class="clip-title">매일 찾는 짧은 즐거움</div>
+                    </div>
+                    <div class="clip-main">
+                        <ul class="clip-list">
+                            <li class="clip-item">
+                                <a href="#">
+                                    <div class="clip-video">
+                                        <div class="clip-thumbnail-container">
+                                            <img
+                                                src="./사진/m-clip/1.jpg"
+                                                alt=""
+                                                class="clip-thumbnail"
+                                            />
+                                        </div>
+                                        <div class="clip-video-title">
+                                            야외운동하기 딱!좋아🍂소식알림 1000원
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="clip-uploader">운동하는 언니들</div>
+                            </li>
+                            <li class="clip-item">
+                                <a href="#">
+                                    <div class="clip-video">
+                                        <div class="clip-thumbnail-container">
+                                            <img
+                                                src="./사진/m-clip/2.jpg"
+                                                alt=""
+                                                class="clip-thumbnail"
+                                            />
+                                        </div>
+                                        <div class="clip-video-title">
+                                            흔한 저녁 6시 헬스장 풍경
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="clip-uploader">핑크힙응비</div>
+                            </li>
+                            <li class="clip-item">
+                                <a href="#">
+                                    <div class="clip-video">
+                                        <div class="clip-thumbnail-container">
+                                            <img
+                                                src="./사진/m-clip/3.jpg"
+                                                alt=""
+                                                class="clip-thumbnail"
+                                            />
+                                        </div>
+                                        <div class="clip-video-title">
+                                            피겨스케이트 따라하는 캐나다 주민들
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="clip-uploader">보름</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="content-card figure naver-ads-card">
+                    <a href="#">
+                        <div class="sports-img-container-1">
+                            <img src="./사진/m-card/figure.png" alt="" class="naver-ads-card-img" />
+                        </div>
+                        <div class="naver-ads-card-info">
+                            <div class="naver-ads-card-container">
+                                <img
+                                    src="./사진/m-card/figure-info.png"
+                                    alt=""
+                                    class="naver-ads-card-logo"
+                                />
+                            </div>
+                            <div class="naver-ads-card-title">
+                                <div class="main-title sports-main-title naver-ads-card-title">
+                                    직업별 등재기준 확인하고&#33;
+                                </div>
+                                <div class="sub-title sports-sub-title">
+                                    네이버 인물정보에 등록해보세요
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <div class="event-page">
+            <a href="#" class="event-link"
+                ><div class="event-page-box">
+                    <div class="event-img-container">
+                        <img src="./사진/m-event/event.png" alt="" class="event-img" />
+                    </div>
+                    <div class="event-text">
+                        <p>이벤트 모아보기 <i class="fa-solid fa-chevron-right"></i></p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="footer-btn-container">
+            <div class="text-size">
+                <button class="text-btn text-small-btn">가 -</button>
+                <button class="text-btn text-large-btn">가 +</button>
+            </div>
+            <a href="#" class="top-btn"><i class="fa-solid fa-arrow-up"></i></a>
+        </div>
+        <footer class="m-naver-footer">
+            <div class="footer-info">
+                <div class="footer-info-1">
+                    <ul class="footer-info-list">
+                        <li class="footer-list-item">
+                            <a href="#" class="footer-list-item-link">로그인</a>
+                        </li>
+                        <li class="footer-list-item">
+                            <a href="#" class="footer-list-item-link">전체서비스</a>
+                        </li>
+                        <li class="footer-list-item">
+                            <a href="#" class="footer-list-item-link">PC버전</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-info-2">
+                    <ul class="footer-info-list">
+                        <li class="footer-list-item">
+                            <a href="#" class="footer-list-item-link">이용약관</a>
+                        </li>
+                        <li class="footer-list-item">
+                            <a href="#" class="footer-list-item-link"
+                                ><span class="personal-info-policy">개인정보처리방침</span></a
+                            >
+                        </li>
+                        <li class="footer-list-item">
+                            <a href="#" class="footer-list-item-link">고객센터</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
